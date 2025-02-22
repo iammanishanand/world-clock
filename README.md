@@ -15,5 +15,5 @@ This is a web-based world clock application that allows users to view the curren
 3. Enable **Edit Mode** to rearrange or remove cities.
 
 ## 📌 Live Demo
-[Host on GitHub Pages]()
+[Host on GitHub Pages](https://iammanishanand.github.io/world-clock/)
 
