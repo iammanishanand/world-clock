@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  #clockContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .clock {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 220px;
+    position: relative;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .clock.night {
+    background: #333;
+    color: #f0f0f0;
+  }
+  
+  .city {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .time {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: inherit;
+  }
+  
+  .edit-controls {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+    gap: 3px;
+  }
+  
+  .edit-controls button {
+    background: #0078d7;
+    border: none;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+  }
+  
+  .clock.editing .edit-controls {
+    display: flex;
+  }
+  

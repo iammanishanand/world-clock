@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced World Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Advanced World Clock</h1>
+  <div id="controls">
+    <select id="citySelect">
+      <optgroup label="Europe">
+        <option value="Europe/London">London</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="Europe/Paris">Paris</option>
+      </optgroup>
+      <optgroup label="America">
+        <option value="America/New_York">New York</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="America/Toronto">Toronto</option>
+      </optgroup>
+      <optgroup label="Asia">
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Asia/Kolkata">Kolkata</option>
+        <option value="Asia/Dubai">Dubai</option>
+      </optgroup>
+    </select>
+    <button id="addCityButton">Add City</button>
+    <label>
+      Edit Mode: <input type="checkbox" id="editToggle">
+    </label>
+  </div>
+  <div id="clockContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
